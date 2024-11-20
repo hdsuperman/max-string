@@ -1,10 +1,14 @@
 {
   "name": "max-string",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "keywords": [],
-  "author": "hdsuperman",
+  "keywords": ["validation", "max-length", "string"],
   "license": "MIT",
+  "author": "hdsuperman",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hdsuperman/max-string"
+  },
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc"
