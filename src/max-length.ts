@@ -70,7 +70,8 @@ export const IP = Math.max(IPv4, IPv6, IPv4_MAPPED_IPv6); // 45
  * - It makes sense to use VARCHAR(64) for storing this information.
  * - Reference: [List of tz database time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
  * */
-export const TIMEZONE = Math.max(64, 'America/Argentina/ComodRivadavia'.length);
+export const TIMEZONE_LONGEST = 'America/Argentina/ComodRivadavia'.length;
+export const TIMEZONE = Math.max(64, TIMEZONE_LONGEST); // 64
 
 /**
  * Reference: [List of ISO 3166 country codes](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)
