@@ -1,6 +1,6 @@
-# max-length
+# max-string
 
-`max-length` is a lightweight utility library that provides predefined maximum lengths for common
+`max-string` is a lightweight utility library that provides predefined maximum lengths for common
 data types and formats. This package simplifies your workflow for database schema validation,
 frontend form validation, and backend API validation. The values are derived from widely recognized
 international standards, ensuring accuracy and reliability.
@@ -10,9 +10,9 @@ international standards, ensuring accuracy and reliability.
 Install the package:
 
 ```shell
-npm install max-length
-yarn add max-length
-pnpm add max-length
+npm install max-string
+yarn add max-string
+pnpm add max-string
 ```
 
 ## 🌐 Use Cases
@@ -25,7 +25,7 @@ pnpm add max-length
 ## 📘 Usage
 
 ```typescript
-import { MAX_LENGTH } from 'max-length';
+import { MAX_STRING } from 'max-string';
 
-console.log(MAX_LENGTH.PHONE_NUMBER); // 15
+console.log(MAX_STRING.PHONE_NUMBER); // 15
 ```

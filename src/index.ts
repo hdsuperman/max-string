@@ -1,3 +1,3 @@
-import * as MAX_LENGTH from './max-length';
+import * as MAX_STRING from './max-string';
 
-export { MAX_LENGTH };
+export { MAX_STRING };
